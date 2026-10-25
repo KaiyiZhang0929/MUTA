@@ -6,7 +6,7 @@ MUTA enables multiple network prediction tasks to share a neural network and run
 
 ## Code overview
 
-- **`QoE Train`**: A Jupyter/Colab notebook stored without an extension. Includes video QoE data preparation, multi-task model training, quantization, and evaluation for stalling, startup delay, resolution, and bitrate prediction, with baseline experiments.
+- **`QoE_Train.ipynb`**: A Jupyter/Colab notebook. Includes video QoE data preparation, multi-task model training, quantization, and evaluation for stalling, startup delay, resolution, and bitrate prediction, with baseline experiments.
 - **`P4Generator.ipynb`**: Generates P4 programs for individual neural network layers targeting Intel Tofino/TNA switches.
 - **`P4/`**: Intended to contain the P4 implementations of the three model layers.
 - **`Deployment Orchestrator/`**: Intended to contain topology and model-placement optimization code for distributed deployment.
